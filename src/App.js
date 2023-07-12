@@ -7,7 +7,7 @@ function App() {
   const points = useSelector((state) => state.bonus.points);
   const account = useSelector((state) => state.account);
   return (
-    <div className="App">
+    <div className="App" style={{padding:"30px"}}>
       <h4>App</h4>
       {account.pending ? (
         <p>loading....</p>
